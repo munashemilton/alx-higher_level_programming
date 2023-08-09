@@ -1,9 +1,10 @@
 #!/usr/bin/python3
-# 10-add.py
+# 9-print_last_digit.py
 
 
-def add(a, b):
-    """Return the addition of a and b."""
-    return (a + b)
+def print_last_digit(number):
+    """Print the last digit of a number and return it."""
+    print(abs(number) % 10, end="")
+    return (abs(number) % 10)
 
 
